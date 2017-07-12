@@ -1,0 +1,13 @@
+---
+title: Главные ссылки про Kindle 3G
+date: 2011-12-28
+categories: ["kindle", "links"]
+---
+
+Пользователям [Amazon Kindle 3](http://www.amazon.com/gp/product/B004HZYA6E/ "Kindle Keyboard 3G with Wi-Fi, 6&quot; E Ink Display, 3G works globally") время от времени бывает нужно сделать jailbreak, установить модули расширяющие функциональность устройства и русифицировать прошивку. Каждый раз искать ссылки лень, потому вот они:
+
+1. [Jailbreak, Fonts & ScreenSavers Hacks for Kindles](http://www.mobileread.com/forums/showthread.php?t=88004 "Fonts &amp; ScreenSavers hacks for Kindles - MobileRead Forums")
+2. [Русификация интерфейса Kindle 3 + Русская виртуальная клавиатура](http://www.siralex.info/2011/03/07/kindle-3-localization-russian/ "Русификация интерфейса Kindle 3 + Русская виртуальная клавиатура") (ставится после jailbreak)
+3. Разные [cловари для Kindle](http://www.the-ebook.org/forum/viewtopic.php?p=472141#472141)
+
+Для того чтобы установить официальные обновления от Amazon нужно удалять только русификатор. Jailbreak удалять НЕ НУЖНО.

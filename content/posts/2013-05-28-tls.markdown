@@ -1,0 +1,18 @@
+---
+title: Поддержка TLS 1.1/1.2
+date: 2013-05-28 15:24:03
+categories: ["browsers", "security", "tls"]
+---
+
+С приходом [SPDY](https://en.wikipedia.org/wiki/SPDY) всё больше и больше сайтов переключается в режим "всегда работаем через HTTPS/TLS", что, в принципе, является хорошей новостью. Ведь неприятно когда из-за того что компьютер (телефон, планшет…) подключился к открытой wifi-сети пользователь теряет логин, пароль от какого-то сайта или даже [просто частные фотографии](http://freegeekvancouver.blogspot.ru/2011/06/another-hack-wiretap-picture-frame.html).
+
+Но, из-за перехода на HTTPS начинают плакать рекламщики, специалисты по поисковой оптимизации и прочие люди плотно работающие с системами анализа http-трафика. Проблема в том, что из соображений безопасности, при переходе со страницы защищённой TLS на страницу незащищённую браузер не передаёт последней заголовок `HTTP_REFERER` и система аналитики не может узнать откуда пользователь пришёл. На днях Stephen Merity написал в свой блог большую статью "[Where did all the HTTP referrers go?](http://smerity.com/articles/2013/where_did_all_the_http_referrers_go.html)", которая рассказывает о новом `<meta>` теге `referrer`, который элегантно решает эту проблему позволяя автору сайта самому решить хочет ли он чтобы при переходе с его страниц HTTP_REFERER выставлялся и насколько детально он должен быть заполнен.
+
+Кстати, про безопасность… Интересен тот факт, что поддержки современного протокола шифрования TLS 1.2 [нет почти нигде](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers) и все работают с давно устаревшим TLS 1.0. В Chrome есть поддержка TLS 1.1, что на голову лучше того, что предлагают конкуренты.
+
+Чтение на ночь:
+
+* [Bugzilla@Mozilla – Bug 733647 – Implement TLS 1.1 (RFC 4346) in Gecko (Firefox, Thunderbird), on by default](https://bugzilla.mozilla.org/show_bug.cgi?id=733647)
+* [Bugzilla@Mozilla – Bug 480514 — Implement TLS 1.2 (RFC 5246)](https://bugzilla.mozilla.org/show_bug.cgi?id=480514)
+* [Chromium — Issue 90392: No TLS 1.2 (SHA-2) Support](https://code.google.com/p/chromium/issues/detail?id=90392)
+* [MS12-006: Vulnerability in SSL/TLS could allow information disclosure: January 10, 2012](http://support.microsoft.com/kb/2643584)
