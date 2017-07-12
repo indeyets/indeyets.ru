@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/jimidini
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://indeyets.ru
+  * I am jimidini (https://keybase.io/jimidini) on keybase.
+  * I have a public key with fingerprint A6CE DC75 11EF 851C 3D7A  48DA AF54 312A 1D21 9F11
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.9"
+        },
+        "key": {
+            "fingerprint": "a6cedc7511ef851c3d7a48daaf54312a1d219f11",
+            "host": "keybase.io",
+            "key_id": "AF54312A1D219F11",
+            "uid": "68ed40056124d5cfeaaacc13d1abcd00",
+            "username": "jimidini"
+        },
+        "merkle_root": {
+            "ctime": 1403362517,
+            "hash": "8ae9b803f22feeab5edc01386b788ae2a35be460949a191e062ff61e6280b27e827b9373a574fd83ea5d78d11c6b6b52c47531e58f3d33b76f21f49501779c43",
+            "seqno": 21756
+        },
+        "service": {
+            "hostname": "indeyets.ru",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1403362534,
+    "expire_in": 157680000,
+    "prev": "cdd2574c5fa6bfa7276da3189ae460e3164798a3959fb27c6c452f3bacc9eab1",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - http://gpgtools.org
+
+owFdkmtoHUUUx2/aJreJNBUhKcFEko2GPm5vd3Z2ZnaDIJUShBaCBCoV8To7czaZ
+22T3dndvaqi3KChyiTalXzS24ANrH9FUEbQqpIWCtUlB8IN+sZ9KUyu0UvtIaKt1
+9hLxMZ929vzO/5z/ObN/1fJMU925xl3tO8od39TNXfEyA4cPze8xvFCOGb17DDGs
+IEjSr4CPgNFr7IQxj8eQV2FnEErIF+POJSZnjEIUqzDQlJm3865RyaV4muyrYBCi
+UqRSLYNTAVIwghD4DkECS8ZtR3LuExsjiyNpIddHSEsOhXHyn6pGTbOgpP67ua/G
+b0ZbNN9X48u1AHVA2qZJKLJsSYQPnHMhEJaIe0KaZgrGEC1ZKqoRJVWg0n5HINo5
+DIUoDGumRaJSBNkmxtQiiOmOeDykkxwOrueY2LcsH4B7RDsyEXaoxxwdszgmHtjU
+dG2XIxeBSS3fpwio5ZiexcCxmOdihjlhti8dDJxI5kiEBPWoRyxhM4IREMfHEmOP
+Ud9Cvu0SEzHmChtrCzHsCkKj10KM0Ep6jUaVgLTtdGpL5lQgYQySOB+VdUopCpNQ
+hMM6MJQkpd7UcjJWSsHd4BVimKppFDydplf2750ijf5vHNjOGfBiSUVQUClBGHVM
+fdI6MKo1hZSW9ieIz6nnc2YxKjlGjsvT0QBG1Gauw7FLXF8PRVBhE8vHnl6Wq2eK
+/jGpKyV8UEvGajDgSTkCo1Kta1+RqWvKNNQvSx9tpqnxwb9f8sPvZO8/93H34uqf
+bq46eOXX+uPzJy6++WF7y8Y/X8iK4NLl6exi5uhcX/HUti5/9/kvty3MHPm0uvbr
+nv4PFqYWz690sm/g7refbrPYQMNry59/ZtOO5ntDP7ccOLZu64amqat7j52Z+EPB
+lhut0wd+LFZvt8HE7NHvN8xNdp16ueezky19ld/f2t7fMrHv9Lkfvuv/pLIvO6se
+nRlfc3/9oXvvrV87fhAfWTmgRp5aPemNVt391Vc759d0X5vreOyLvQ2Pn5lpfujd
+1uvLPr/Tdb37wtbcK63NjY9svPXLuG3ebTv5evmls7mvnqj/6MKzh1ecfbKnHk53
+uO8PO8UTD9yZLg+umyTbk9++vTW7cPniXw==
+=l23R
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jimidini
+
+==================================================================
