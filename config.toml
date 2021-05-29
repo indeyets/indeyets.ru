@@ -2,7 +2,7 @@
 baseurl = "https://indeyets.ru/"
 languageCode = "ru-ru"
 title = "Алексей Захлестин"
-theme = "hugo-cactus-theme"
+theme = "mini"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
@@ -47,7 +47,7 @@ disqusShortname = "indeyets"
 
 # Add additional social link entries underneath
 [social]
-    fivehundredpx = "https://500px.com/indeyets"
-    friendsfeed = "https://freefeed.net/indeyets"
-    facebook = "https://facebook.com/indeyets"
+    # fivehundredpx = "https://500px.com/indeyets"
+    # friendsfeed = "https://freefeed.net/indeyets"
+    # facebook = "https://facebook.com/indeyets"
     github   = "https://github.com/indeyets"
